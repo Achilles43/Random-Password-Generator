@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Random Passwords</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        
+        <div class="container">
+            <h1>Generate a <span class="main-span">random password</span></h1>
+            <p class="main-p">Never use an isecure password again.</p>
+            <div class="arrows">
+                <p>Number Of Characters In Password:</p>
+                <button onclick="arrowLeft()"><img class="arrow-left" src="arrow.png" alt="arrow"></button>
+                <span class="arrows-span">5</span>
+                <button onclick="arrowRight()"><img class="arrow-right" src="arrow.png" alt="arrow"></button>
+            </div>
+            <button class="generate-password" onclick="generatePassword()">Generate passwords</button>            
+            
+        </div>
+        
+        <div class="inputs">
+            <input type="text" placeholder="password will be generated here" id="input1" readonly>
+            <input type="text" placeholder="password will be generated here" id="input2" readonly>
+        </div>
+        <div class="make-copies">
+            <button onclick="copy1()" id="copy-button1">Copy</button>
+            <button onclick="copy2()" id="copy-button2">Copy</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

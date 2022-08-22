@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap');
+/* font-family: 'Overpass', sans-serif; */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0,0%,11%);
+}
+main{
+    background-color:hsl(215,28%,17%);
+    border:2px solid black;
+    width:40rem;
+    padding: 0 3rem 5rem 3rem;
+    height:35rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:2rem;
+    box-shadow: 0 3px 15px rgb(206, 203, 203);
+    border:5px solid white;
+}
+.container h1{
+    font-family:'Overpass', sans-serif;
+    font-size:2.7rem;
+    color:white;
+    margin-bottom:0;
+}
+.container .main-span{
+    color:hsl(158,64%,52%);
+    line-break:none;
+    font-family:monospace;
+    font-size:2.7rem;
+}
+.container .main-p{
+    color:rgb(236, 236, 236);
+    font-size:1.2rem;
+    margin-top:1rem;
+    text-shadow:0px 0px 5px black;
+    font-family:'Overpass', sans-serif;
+}
+.container button{
+    padding:1rem 1.2rem;
+    background-color: hsl(163,75%,31%);
+    font-size:1.15rem;
+    color:black;
+    border:none;
+    border-radius:18px;
+    black;
+    font-family:monospace;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.inputs{
+    display:flex;
+    height:45px;
+    width:100%;
+    gap:1.7rem;
+    margin-top:2rem;
+}
+.inputs input{
+    width:100%;
+    border-radius:12px;
+    background-color: rgb(45, 57, 75);
+    border:none;
+    font-size:0.9rem;
+    padding-left:11px;
+    letter-spacing: 0.07rem; 
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    border-bottom:2px solid hsl(215,30%,22%);
+    padding-bottom:2.4rem;
+}
+button:hover,
+make-copies button:hover{
+    cursor:pointer;
+}
+.generate-password:active{
+    color:rgba(255, 0, 0, 0.679);
+}
+
+.arrows img{
+    width:50px;
+    aspect-ratio: 1/1;
+}
+.arrows .arrow-left{
+    transform: rotate(180deg);
+}
+.arrows button{
+    background-color:hsl(215,28%,17%);
+}
+.arrows {
+    display: flex;
+    align-items: center;
+}
+.arrows p{
+    font-size:1rem;
+    font-family:monospace;
+    color:whitesmoke;
+    font-weight:bold;
+    text-shadow: 0 0 5px black;
+}
+.arrows img:active{
+    width:51px;
+}
+.arrows span{
+    border:1px solid white;
+    width:40px;
+    aspect-ratio: 1/1;
+    background-color:white;
+    border-radius: 40%;
+    font-size:1.25rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.make-copies{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+    margin-top:1rem;
+}
+.make-copies button{
+    width:100px;
+    height:40px;
+    background-color:rgba(240, 240, 239, 0.951);
+    border:none;
+    border-radius:15px;
+    font-size:1.2rem;
+    color:black;
+    font-weight:400;
+    font-family:'Overpass', sans-serif;
+}
+.make-copies button:active{
+    color:red;
+}
